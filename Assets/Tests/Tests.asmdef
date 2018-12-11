@@ -1,0 +1,14 @@
+{
+    "name": "Tests",
+    "references": [
+        "SkillsAssembly"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -5,6 +5,7 @@ using Zenject;
 
 public class ItemsList : MonoBehaviour
 {
+    public Level Level;
     private List<Item> _items;
     private ItemUI.Factory _itemFactory;
 
