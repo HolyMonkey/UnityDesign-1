@@ -15,7 +15,7 @@ public class AbillitiesExecuter : MonoBehaviour
     {
         if(_currentAbillity != null)
         {
-            var targets = _currentAbillity.PlaceLogic.TryPlace((Vector2)Input.mousePosition);
+            var targets = _currentAbillity.SelectTargets((Vector2)Input.mousePosition);
 
             if (Input.GetMouseButtonDown(0))
             {

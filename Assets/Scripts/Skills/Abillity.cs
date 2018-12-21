@@ -20,4 +20,10 @@ public class Abillity : ScriptableObject
             }
         }
     }
+
+    public IEnumerable<Unit> SelectTargets(Vector2 screenPoint)
+    {
+        return _placeLogic.TryPlace(screenPoint);
+    }
 }
+
